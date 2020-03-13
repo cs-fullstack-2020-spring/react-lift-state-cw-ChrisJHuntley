@@ -4,10 +4,12 @@ class Player extends Component {
     constructor(props) {
         super(props);
         this.state = {
+            // object properties should be lower case
             PlayerNumber: this.props.number
         }
     }
     addOne=()=>{
+        // you should be using this.setState to update the state in this event handler method
         let last= this.state.number1;
          
     }
@@ -22,6 +24,7 @@ class Player extends Component {
             </div>
 
         )
+        // you can't do anything after a return
         console.log(this.addOne)
     }
 }
