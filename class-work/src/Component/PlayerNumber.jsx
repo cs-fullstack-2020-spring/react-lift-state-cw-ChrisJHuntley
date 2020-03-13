@@ -9,9 +9,7 @@ class Player extends Component {
     }
     addOne=()=>{
         let last= this.state.number1;
-        this.setState({
-            number1: last
-        })
+         
     }
 
     render() {
@@ -24,6 +22,7 @@ class Player extends Component {
             </div>
 
         )
+        console.log(this.addOne)
     }
 }
 

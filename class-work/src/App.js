@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 import Player from './Component/PlayerNumber';
 // import PlayerNumber from './Component/PlayerNumber'
