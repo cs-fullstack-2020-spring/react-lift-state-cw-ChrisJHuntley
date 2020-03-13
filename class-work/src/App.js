@@ -1,14 +1,14 @@
 import React, {Component} from 'react';
 import logo from './logo.svg';
 import './App.css';
-import PlayerNumber from './Component/PlayerNumber'
+import Player from './Component/PlayerNumber';
+// import PlayerNumber from './Component/PlayerNumber'
 
 function App() {
   return (
     <div>  
-      <PlayerNumber number1='3'/>
-      
-    </div>
+      <Player number1= '3'/>
+      </div>
   );
 }
 

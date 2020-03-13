@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
-import PlayerNumber from './Component/PlayerNumber'
-
+ 
 class Player extends Component {
     constructor(props) {
         super(props);
@@ -20,7 +19,7 @@ class Player extends Component {
 
             <div>
                 
-        <h1> this Player is {this.state.number1}</h1>
+        <h1> this Player# to touch it last is {this.state.number1}</h1>
                 <button onClick= {this.addOne}>last</button>
             </div>
 
